@@ -1,4 +1,4 @@
----
+﻿---
 layout:     post
 title:      ReactiveCocoa 进阶
 subtitle:   函数式编程框架 ReactiveCocoa 进阶
@@ -26,7 +26,7 @@ tags:
 所有的信号（RACSignal）都可以进行操作处理，因为所有操作方法都定义在RACStream.h中，因此只要继承RACStream就有了操作处理方法。
 #### 操作思想
 
-运用的是Hook（钩子）思想，Hook是一种用于改变API(应用程序编程接口：方法)执行结果的技术.
+运用的是Hook（钩子）思想d，Hook是一种用于改变API(应用程序编程接口：方法)执行结果的技术.
 
 Hook用处：截获API调用的技术。
 
